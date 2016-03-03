@@ -1,5 +1,5 @@
 #media="sns_vn"
-media="forum_vn"
+#media="forum_vn"
 #media="news_vn"
 days_past="-3 days"
 if [ ! -z "$1" ]; then
