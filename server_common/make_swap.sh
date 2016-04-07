@@ -23,4 +23,4 @@ dd if=/dev/zero of=/swapfile bs=1024 count=$((1024 * ${size_in_mb}))
 mkswap /swapfile
 swapon /swapfile
 
-echo -e "\n'/swapfile swap swap defaults 0 0'" >> /etc/fstab
+echo -e "\n/swapfile swap swap defaults 0 0" >> /etc/fstab
